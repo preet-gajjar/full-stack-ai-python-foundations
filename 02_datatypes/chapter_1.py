@@ -4,4 +4,4 @@ number = 7
 print(f"ID of Number is: {id(number)} ")
 
 number = 10
-print(f"ID of Number is: {id(number)} ") 
+print(f"ID of Number is: {id(number)} ")
