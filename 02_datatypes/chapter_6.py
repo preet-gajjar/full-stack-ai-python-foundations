@@ -19,9 +19,9 @@ print(f"Description of chai: {chai_description[:7:-1]}") # [:ending+1:-jump]
 
 # String encoding and decoding 
 
-lable_text = "Chāi Special"
-encoded_label = lable_text.encode("utf-8")
-print(f"Non encoded label: {lable_text}")
+label_txt = "Chāi Special"
+encoded_label = label_txt.encode("utf-8")
+print(f"Non encoded label: {label_txt}")
 print(f"Encoded label: {encoded_label}")
 
 decoded_label = encoded_label.decode("utf-8")
