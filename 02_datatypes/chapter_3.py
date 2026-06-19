@@ -14,7 +14,7 @@ servings = 4
 print(f"Serving per consumer: {milk_litres //servings}") # '//' is used when no worries with decimal
 
 total_cadamom_pods = 10
-pods_per_cup = 3              
+pods_per_cup = 3             
 total_pods_per_cup = total_cadamom_pods / pods_per_cup # only integer with decimal
 print(total_pods_per_cup)
 total_pods_per_cup = total_cadamom_pods // pods_per_cup # only int with no decimal
