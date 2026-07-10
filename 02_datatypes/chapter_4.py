@@ -15,4 +15,6 @@ tea = True
 coffee = False
 
 print(f"Tea and coffee: {tea and coffee}")
+print(f"Tea but NOT coffee: {tea and coffee}")
+print(f"Tea or NOT coffee: {tea or coffee}")
 print(f"Tea or coffee: {tea or coffee}")
