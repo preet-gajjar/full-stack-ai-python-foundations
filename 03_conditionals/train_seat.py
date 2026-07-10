@@ -10,5 +10,4 @@ match seat_type:
   case "luxury":
     print("Luxury - Premium seats with meals")
   case _:
-    print("Invalid seat type")
-    
+    print(f"Invalid seat type")
